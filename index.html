@@ -1,309 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ARC TOYS | Premium RC Cars</title>
 
+<link rel="icon" href="images/logo.png">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<header>
+<header class="header">
 
-<div class="logo">
+<div class="container">
 
-<img src="logo.png" alt="ARC TOYS Logo">
+<nav class="navbar navbar-expand-lg">
+
+<a class="navbar-brand logo" href="#">
+
+<img src="images/logo.png">
 
 <span>ARC TOYS</span>
 
+</a>
+
+<button class="navbar-toggler bg-light"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse justify-content-end"
+id="menu">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Products</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Categories</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
 </div>
-
-<nav>
-
-<a href="#">Home</a>
-
-<a href="#products">Products</a>
-
-<a href="#">New Arrivals</a>
-
-<a href="#">Contact</a>
 
 </nav>
-<div class="cart-icon">
-
-🛒
-
-<span id="cart-count">0</span>
-
-</div>
-
-<div class="nav-btn">
-
-<a href="https://wa.me/919361478540" target="_blank">
-Order Now
-</a>
 
 </div>
 
 </header>
-<section class="sale-banner">
 
-    <h2>🎉 INDEPENDENCE SALE</h2>
-
-    <p>Use Code <strong>ARC10</strong> & Get Flat ₹50 OFF</p>
-
-    <div id="countdown"></div>
-
-</section>
-<section class="hero">
-
-<div class="hero-left">
-
-<span class="hero-tag">🔥 INDIA'S PREMIUM RC STORE</span>
-
-<h1>Drive Beyond <span>Limits</span></h1>
-
-<p>
-Discover Premium RC Drift Cars, Rock Crawlers and High-Speed RC Vehicles.
-Fast Delivery Across India.
-</p>
-
-<div class="hero-buttons">
-
-<a href="#products" class="btn1">
-Shop Now
-</a>
-
-<a href="https://wa.me/919361478540" class="btn2">
-WhatsApp
-</a>
-
-</div>
-
-</div>
-
-<div class="hero-right">
-
-<img src="hero-banner.png" class="hero-banner">
-
-</div>
-
-</section>
-
-<section class="search">
-
-<input
-type="text"
-placeholder="Search Products...">
-
-</section>
-
-<section id="products">
-
-<h2 class="section-title">
-Featured Products
-</h2>
-
-<div class="cards">
-<div class="card">
-<span class="badge new">NEW ARRIVAL</span>
-<div class="wishlist">❤</div>
-<img src="crawler.jpg" alt="Rock Crawler">
-
-<h3>MOKA Rock Crawler</h3>
-
-<p class="price">₹1,199</p>
-<p class="stock">✔ In Stock</p>
-<div class="rating">
-⭐⭐⭐⭐⭐ <span>(5.0)</span>
-</div>
-
-<p>1:16 Scale | 20 km/h | 2.4GHz Remote</p>
-<span>🛡️ 7 Days Replacement</span>
-<button class="add-cart">
-🛒 Add to Cart
-</button>
-<a href="https://wa.me/919361478540?text=Hi%20ARC%20TOYS,%20I%20want%20to%20order%20MOKA%20Rock%20Crawler." class="order">
-Order on WhatsApp
-</a>
-
-</div>
-
-<div class="card">
-<span class="ribbon">BEST SELLER</span>
-<div class="wishlist">❤</div>
-
-
-<img src="drift.jpg" alt="RC Drift Car">
-
-<h3>RC Drift Car</h3>
-
-<p class="price">₹1,299</p>
-<p class="stock">✔ In Stock</p>
-<div class="rating">
-⭐⭐⭐⭐⭐ <span>(5.0)</span>
-</div>
-
-<p>1:24 Scale | Proportional Speed | 20 km/h</p>
-<span>🛡️ 7 Days Replacement</span>
-<button class="add-cart">
-🛒 Add to Cart
-</button>
-
-<a href="https://wa.me/919361478540?text=Hi%20ARC%20TOYS,%20I%20want%20to%20order%20RC%20Drift%20Car." class="order">
-Order on WhatsApp
-</a>
-
-</div>
-
-<div class="card">
-<div class="wishlist">❤</div>
-
-<img src="offroad.jpg" alt="RTR Off Road Car">
-
-<h3>RTR Off Road Car</h3>
-
-<p class="price">₹1,249</p>
-<p class="stock">✔ In Stock</p>
-<div class="rating">
-⭐⭐⭐⭐⭐ <span>(5.0)</span>
-</div>
-
-<p>25 km/h | 2.4GHz | Off Road</p>
-<span>🛡️ 7 Days Replacement</span>
-<button class="add-cart">
-🛒 Add to Cart
-</button>
-
-<a href="https://wa.me/919361478540?text=Hi%20ARC%20TOYS,%20I%20want%20to%20order%20RTR%20Off%20Road%20Car." class="order">
-Order on WhatsApp
-</a>
-
-</div>
-<div class="card">
-
-    <span class="badge">NEW ARRIVAL</span>
-
-    <span class="ribbon">BEST SELLER</span>
-    <div class="wishlist">❤</div>
-
-    <img src="gtdrift.jpg" alt="RC GT Drift Car">
-
-    <h3>RC GT Drift Car</h3>
-
-    <p class="price">₹1,899</p>
-    <p class="stock">✔ In Stock</p>
-
-    <p>1:16 Scale | 30 km/h | 2.4GHz | High Speed GT Drift</p>
-    <span>🛡️ 7 Days Replacement</span>
-    <button class="add-cart">
-🛒 Add to Cart
-</button>
-    <a href="https://wa.me/919361478540?text=Hi%20ARC%20TOYS,%20I%20want%20to%20order%20RC%20GT%20Drift%20Car." class="order">
-        Order on WhatsApp
-    </a>
-
-</div>
-<div class="card">
-
-    <span class="badge best">BEST SELLER</span>
-
-    <img src="bigcrawler.jpg" alt="RC Big Size Crawler">
-
-    <h3>RC Big Size Crawler</h3>
-
-    <p class="price">₹620</p>
-
-    <div class="rating">
-        ⭐⭐⭐⭐⭐ <span>(5.0)</span>
-    </div>
-
-    <p>
-        1:18 Scale | Smoke Function | 2.4GHz Remote
-    </p>
-
-    <div class="stock">
-        ✅ In Stock
-    </div>
-
-    <div class="card-buttons">
-<span>🛡️ 7 Days Replacement</span>
-
-        <button class="cart-btn"
-            onclick="addToCart('RC Big Size Crawler',620)">
-            🛒 Add to Cart
-        </button>
-
-        <a href="https://wa.me/919361478540?text=Hi%20ARC%20TOYS,%20I%20want%20to%20order%20RC%20Big%20Size%20Crawler"
-           class="order">
-            Order on WhatsApp
-        </a>
-    </div>
-
-</div>
-
-</section>
-<div class="cart-panel">
-
-<h2>Your Cart</h2>
-
-<div id="cart-items"></div>
-
-<div class="cart-summary">
-
-<p>Subtotal : ₹<span id="subtotal">0</span></p>
-
-<p>Delivery : ₹<span id="delivery">100</span></p>
-
-<h3>Total : ₹<span id="total">100</span></h3>
-
-<p class="delivery-note">
-
-🚚 FREE Delivery Above ₹2000
-
-</p>
-
-<p class="delivery-note">
-
-📦 Estimated Delivery: 3–5 Business Days
-
-</p>
-
-<button class="checkout">
-
-🔒 Secure Checkout
-
-</button>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-<footer>
-
-<h3>ARC TOYS</h3>
-
-<p>Premium RC Cars & Toys</p>
-
-<p>📞 WhatsApp: +91 9361478540</p>
-
-<p>© 2026 ARC TOYS. All Rights Reserved.</p>
-
-</footer>
-
-<a href="https://wa.me/919361478540" class="floating">
-💬
-</a>
-
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
 </html>
+
