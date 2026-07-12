@@ -1493,3 +1493,55 @@ transition:.3s;
 transform:translateY(-3px);
 
 }
+
+/*=========================
+ COUNTER SECTION
+=========================*/
+
+.counter-section{
+
+background:#10192d;
+
+}
+
+.counter-box{
+
+background:#1a2742;
+
+padding:30px;
+
+border-radius:18px;
+
+transition:.3s;
+
+}
+
+.counter-box:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(255,193,7,.20);
+
+}
+
+.counter-box h2{
+
+color:#FFC107;
+
+font-size:42px;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.counter-box p{
+
+color:#fff;
+
+margin:0;
+
+font-size:18px;
+
+}
