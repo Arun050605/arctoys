@@ -1426,3 +1426,29 @@ font-size:18px;
 line-height:1.8;
 
 }
+
+/* ===== REVIEW NAME FIX ===== */
+
+.review-card h5{
+
+    color:#ffffff !important;
+
+    font-size:28px !important;
+
+    font-weight:700 !important;
+
+    text-align:center;
+
+    margin:15px 0;
+
+}
+
+.review-card p{
+
+    color:#f1f1f1 !important;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
