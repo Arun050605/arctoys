@@ -1399,3 +1399,30 @@ background:linear-gradient(90deg,#00d4ff,#ff4ecd,#ffb703);
 
 margin
 
+/* ===== REVIEW NAME FIX ===== */
+
+.review-card h5{
+
+color:#ffffff !important;
+
+font-size:26px;
+
+font-weight:700;
+
+margin-top:15px;
+
+margin-bottom:15px;
+
+text-align:center;
+
+}
+
+.review-card p{
+
+color:#e5e5e5 !important;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
