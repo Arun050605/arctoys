@@ -1399,39 +1399,3 @@ background:linear-gradient(90deg,#00d4ff,#ff4ecd,#ffb703);
 
 margin
 
-/* ===== ARC TOYS PREMIUM LOGO ===== */
-
-.navbar-brand.logo{
-display:flex !important;
-align-items:center;
-gap:14px;
-text-decoration:none;
-}
-
-.navbar-brand.logo img{
-width:60px;
-height:60px;
-border-radius:12px;
-box-shadow:0 0 20px rgba(255,0,180,.45);
-}
-
-.navbar-brand.logo span{
-font-size:48px !important;
-font-weight:900 !important;
-letter-spacing:2px;
-
-background:linear-gradient(
-90deg,
-#00d4ff,
-#4d8cff,
-#ff4ecd,
-#ffb703
-);
-
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-background-clip:text;
-color:transparent;
-
-text-transform:uppercase;
-}
